@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import { FormGroup, FormControl, InputGroup, Glyphicon } from 'react-bootstrap';
-
+import Profile from './Profile';
 class App extends Component {
     constructor(props) {
         super(props);
