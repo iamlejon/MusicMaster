@@ -57,10 +57,9 @@ class App extends Component {
                     </InputGroup.Addon>
                     </InputGroup>
                 </FormGroup>
-                <div className="Profile">
-                    <div>Artist Picture</div>
-                    <div>Artist Name</div>
-                </div>
+                <Profile 
+                        artist={this.state.artist}
+                />
                 <div className="Gallery">
                     Gallery
                 </div>
