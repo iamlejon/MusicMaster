@@ -3,9 +3,20 @@ import React, {Component} from 'react';
 class App extends Component {
     render() {
         return (
-            <div>
-            Music Master from App
-            </div>
+        <div>
+            <div className="App-title">Music Master</div>
+                <div>
+                    <input placeholder="search an artist"/>
+                    <button></button>
+                </div>
+                <div className="Profile">
+                    <div>Artist Picture</div>
+                    <div>Artist Name</div>
+                </div>
+                <div className="Gallery">
+                    Gallery
+                </div>
+        </div>
         )
     }
 }
