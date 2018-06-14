@@ -7,7 +7,7 @@ class App extends Component {
             <div className="App-title">Music Master</div>
                 <div>
                     <input placeholder="search an artist"/>
-                    <button></button>
+                    <button>Search</button>
                 </div>
                 <div className="Profile">
                     <div>Artist Picture</div>
