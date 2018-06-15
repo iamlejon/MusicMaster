@@ -98,6 +98,8 @@ body {
 
 .track-play-inner:hover{
     opacity: 0.8;
+    animation-name: fade-in;
+    animation-duration: 0.5s;
 }
 
 @keyframes fade-in {
