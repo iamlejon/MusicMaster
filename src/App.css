@@ -11,3 +11,16 @@ body {
 .App-title {
     font-size: 26px;
 }
+
+.profile {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #fff;
+    border-radius: 75px;
+    object-fit: cover;
+}
