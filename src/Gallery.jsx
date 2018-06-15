@@ -1,4 +1,4 @@
-import React, { Componeont } from 'react';
+import React, { Component } from 'react';
 import './App.css';
 
 class Gallery extends Component {
