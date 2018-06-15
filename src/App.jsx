@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import './App.css';
 import { FormGroup, FormControl, InputGroup, Glyphicon } from 'react-bootstrap';
 import Profile from './Profile';
+import Gallery from './Gallery';
+
 class App extends Component {
     constructor(props) {
         super(props);
